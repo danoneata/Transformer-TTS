@@ -8,10 +8,13 @@
 ## Requirements
   * Install python 3
   * Install pytorch == 0.4.0
-  * Install requirements:
+    ```bash
+    pip install torch torchvision
     ```
-   	pip install -r requirements.txt
-   	```
+  * Install requirements:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Data
 * I used LJSpeech dataset which consists of pairs of text script and wav files. The complete dataset (13,100 pairs) can be downloaded [here](https://keithito.com/LJ-Speech-Dataset/). I referred https://github.com/keithito/tacotron and https://github.com/Kyubyong/dc_tts for the preprocessing code.
